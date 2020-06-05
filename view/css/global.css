@@ -4,6 +4,33 @@
     list-style: none;
 }
 
+
+/* MENU ----- */
+
 .ui.menu{
     margin-top: 0 !important;
+}
+
+/* Page connexion / inscription ----- */
+
+#connect_block, #register_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+/* Page Student */
+
+#student_add_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 85%;
+    position: relative;
+    flex-wrap: wrap;
 }

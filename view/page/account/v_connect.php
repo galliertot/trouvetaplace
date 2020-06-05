@@ -1,10 +1,5 @@
-<div class="ui middle padded aligned center aligned grid">
+<div class="ui grid middle center aligned " id="connect_block">
   <div class="column six wide">
-    <h2 class="ui image header">
-      <div class="content">
-        Se connecter
-      </div>
-    </h2>
     <form class="ui large form" method="POST" action="">
       <div class="ui stacked segment">
         <div class="field">

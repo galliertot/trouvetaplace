@@ -2,13 +2,8 @@
     include_once('view/build/v_header.php');
 ?>
 
-<div class="ui middle padded aligned center aligned grid">
+<div class="ui middle aligned center aligned grid" id="register_block">
   <div class="column six wide">
-    <h2 class="ui image header">
-      <div class="content">
-        Création d'un compte
-      </div>
-    </h2>
     <form class="ui large form" method="POST" action="">
       <div class="ui stacked segment">
 
@@ -59,6 +54,9 @@
       <div class="ui error message"></div>
 
     </form>
+    <div class="ui message">
+      Déjà inscrit ? <a href="index.php">Se connecter</a>
+    </div>
   </div>
 </div>
 

@@ -1,10 +1,12 @@
 <?php
 
-    include_once('model/account/m_user.php');
+    include_once('model/m_user.php');
     include_once('model/DbConnector.php');
 
-
-    if(!empty($_POST) && isset($_POST))
+    if(isUserConnected())
+        unsetUserConnected();
+    
+        if(!empty($_POST) && isset($_POST))
     {
         if(isset($_POST['prenom'])
         && isset($_POST['nom'])
